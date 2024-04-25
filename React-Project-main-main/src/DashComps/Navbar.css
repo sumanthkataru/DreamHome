@@ -1,0 +1,29 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+.navbar-logo {
+    font-size: 20px;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navbar-item:hover {
+    color: #2c3e50;
+    /* Darker color on hover */
+}

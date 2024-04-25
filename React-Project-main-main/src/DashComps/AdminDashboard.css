@@ -1,0 +1,78 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #3498db;
+    /* Primary: Purple */
+    color: white;
+    overflow-y: auto;
+    position: fixed;
+    height: 100%;
+    /* Full height */
+}
+
+.full-height {
+    margin-left: 200px;
+    /* Adjust based on the width of your sidebar */
+}
+
+.sidebar-item {
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-item:hover {
+    background-color: #2980b9;
+    /* Accent: Darker Purple */
+    color: #fff;
+}
+
+.admin-header {
+    text-align: center;
+    padding: 15px;
+    background-color: #3498db;
+    /* Primary: Purple */
+}
+
+.active {
+    background-color: #ecf0f1;
+    /* Secondary: Light Gray */
+    color: #2c3e50;
+    /* Dark Gray text color */
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    /* Adjust based on the width of your sidebar */
+    overflow-y: auto;
+    /* Allow main content to scroll */
+}
+
+/* Additional styling */
+.sidebar-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.sidebar-item {
+    font-size: 16px;
+}
+
+.sidebar-item:hover {
+    color: #fff;
+}
+
+/* Add a subtle box shadow to the active item */
+.active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

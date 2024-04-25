@@ -1,0 +1,20 @@
+/* Notifications.css */
+.notifications {
+    padding: 20px;
+}
+
+.notifications h3 {
+    color: #3498db;
+}
+
+.notifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notifications li {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #ecf0f1;
+}

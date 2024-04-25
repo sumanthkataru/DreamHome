@@ -1,0 +1,77 @@
+.client-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ecf0f1;
+    /* Secondary: Light Gray */
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'YourDesiredFont', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #9b59b6;
+    /* Primary: Purple */
+}
+
+.client-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.client-table th,
+.client-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.client-table th {
+    background-color: #f2f2f2;
+}
+
+.view-icon {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    background-color: #8e44ad;
+    /* Accent: Dark Purple */
+    color: #ecf0f1;
+    /* Secondary: Light Gray */
+    margin-right: 10px;
+}
+
+.view-icon:hover {
+    background-color: #9b59b6;
+    /* Primary: Purple */
+}
+
+.selected-client-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #9b59b6;
+    /* Primary: Purple */
+    color: #ecf0f1;
+    /* Secondary: Light Gray */
+    border-radius: 8px;
+}
+
+.selected-client-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.selected-client-details p {
+    margin: 5px 0;
+}
+
+/* Hover effect for clickable cells */
+.client-table td:hover {
+    background-color: #f9ebc6;
+    /* Custom highlight color */
+}

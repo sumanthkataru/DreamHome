@@ -1,0 +1,65 @@
+/* UserDetails.css */
+
+.user-details-container {
+    padding: 20px;
+    background-color: #ecf0f1;
+    /* Secondary: Light Gray */
+}
+
+h2 {
+    color: #e67e22;
+    /* Primary: Orange */
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #bdc3c7;
+    /* Border color: a shade of Light Gray */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e67e22;
+    /* Primary: Orange */
+    color: #ecf0f1;
+    /* Secondary: Light Gray */
+}
+
+tr:nth-child(even) {
+    background-color: #dcdde1;
+    /* Accent: Darker Gray */
+}
+
+.view-icon {
+    padding: 8px 12px;
+    background-color: #e67e22;
+    /* Primary: Orange */
+    color: #ecf0f1;
+    /* Secondary: Light Gray */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-icon:hover {
+    background-color: #d35400;
+    /* Accent: Darker Orange */
+}

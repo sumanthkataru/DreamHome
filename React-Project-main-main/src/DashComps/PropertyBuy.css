@@ -1,0 +1,120 @@
+/* PropertyBuy.css */
+
+.property-buy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.buy-heading {
+    font-family: 'YourDesiredFont', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    /* Dark Gray text color from AdminDashboard.css */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ecf0f1;
+    /* Secondary: Light Gray from AdminDashboard.css */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.search-button {
+    background-color: #3498db;
+    /* Primary: Blue from AdminDashboard.css */
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.property-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.property-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.property-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.property-details p {
+    margin: 0;
+}
+
+.property-details ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.property-details li {
+    margin-right: 10px;
+}
+
+.buy-button,
+.wishlist-button,
+.remove-button {
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buy-button {
+    background-color: #27ae60;
+    /* Darker Green */
+}
+
+.wishlist-button {
+    background-color: #f39c12;
+    /* Orange */
+    margin-right: 20px;
+}
+
+.remove-button {
+    background-color: #e74c3c;
+    /* Red */
+    margin-right: 20px;
+}
+
+.wishlist-button.added {
+    background-color: #e53935;
+    /* Darker Red */
+    color: #fff;
+}

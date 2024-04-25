@@ -1,0 +1,103 @@
+/* ClientPortfolio.css */
+
+.client-portfolio-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(155, 89, 182, 0.8);
+  /* Semi-transparent Purple overlay */
+  z-index: 999;
+  backdrop-filter: blur(5px);
+  display: none;
+}
+
+.client-portfolio-overlay.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-portfolio-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: #fff;
+  /* White background */
+  padding: 20px;
+  border: 2px solid #9b59b6;
+  /* Primary: Purple border */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  max-height: 80vh;
+  width: 70%;
+  /* Adjust width as needed */
+  max-width: 500px;
+  /* Set a max-width */
+  border-radius: 10px;
+}
+
+.close-button {
+  background-color: #9b59b6;
+  /* Primary: Purple */
+  color: #fff;
+  /* White text color */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #8e44ad;
+  /* Accent: Darker Purple on hover */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+}
+
+.prof-img {
+  margin-right: 15px;
+}
+
+.profile-image {
+  width: 50px;
+  /* Adjust image size */
+  height: 50px;
+  border-radius: 50%;
+  /* Make it circular */
+}
+
+.details {
+  text-align: left;
+}
+
+.details h2 {
+  color: #9b59b6;
+  /* Primary: Purple */
+  margin-bottom: 10px;
+}
+
+.personal-info div {
+  margin-right: 15px;
+}
+
+.projects {
+  text-align: left;
+  overflow-y: auto;
+  max-height: 50vh;
+}
+
+/* Additional styles as needed */

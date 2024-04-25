@@ -1,0 +1,77 @@
+/* BuildHome.css */
+
+.build-home-container {
+    max-width: 800px;
+    margin: 20px auto 0; /* Adjusted margin to include 20px top margin */
+    padding-top:0px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'YourDesiredFont', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 0; /* Remove default top margin */
+    color: #9b59b6; /* Primary: Purple */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.client-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.client-table th,
+.client-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.client-table th {
+    background-color: #ecf0f1; /* Secondary: Light Gray */
+}
+
+.view-icon,
+.contact-button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 14px;
+}
+
+.view-icon {
+    background-color: #3498db; /* Primary: Blue */
+    color: #fff;
+    margin-right: 10px;
+}
+
+.view-icon:hover {
+    background-color: #2980b9; /* Darker Blue on hover */
+}
+
+.contact-button {
+    background-color: #4de73c; /* Red color for contact button */
+    color: #fff;
+}
+
+.contact-button:hover {
+    background-color: #41c02b; /* Darker Red on hover */
+}
